@@ -7,21 +7,21 @@
 TEST(st1, checkPrime1) {
   uint64_t result = checkPrime(0);
   bool expected = false;
-  
+
   EXPECT_EQ(expected, result);
 }
 
 TEST(st1, checkPrime2) {
   uint64_t result = checkPrime(1);
   bool expected = false;
-  
+
   EXPECT_EQ(expected, result);
 }
 
 TEST(st1, checkPrime3) {
   uint64_t result = checkPrime(7);
   bool expected = true;
-  
+
   EXPECT_EQ(expected, result);
 }
 
